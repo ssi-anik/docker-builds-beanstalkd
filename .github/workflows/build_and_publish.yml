@@ -17,7 +17,7 @@ jobs:
           repository: beanstalkd/beanstalkd
       
       - name: Replace with local Dockerfile
-        run: curl https://raw.githubusercontent.com/ssi-anik/docker-builds-beanstalkd/main/Dockerfile --output Dockerfile
+        run: curl https://raw.githubusercontent.com/ssi-anik/docker-builds-beanstalkd/master/Dockerfile --output Dockerfile
                 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2

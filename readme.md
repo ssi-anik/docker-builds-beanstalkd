@@ -1,4 +1,4 @@
-# Beanstalk Builds
+# Beanstalkd Builds
 
 ## Image
 
